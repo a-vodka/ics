@@ -1,0 +1,19 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.21005.1 (f150d40d).
+//
+// c:\users\alex\documents\visual studio 2013\projects\addcontrol\consoleapplication1\debug\csharpserver.tli
+//
+// Wrapper implementations for Win32 type library ..\AddControl\bin\Debug\CSharpServer.tlb
+// compiler-generated file created 09/10/17 at 19:46:21 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface IManagedInterface wrapper method implementations
+//
+
+inline long IManagedInterface::PrintHi ( _bstr_t name ) {
+    long _result = 0;
+    HRESULT _hr = raw_PrintHi(name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}

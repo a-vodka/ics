@@ -1,0 +1,74 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 12.00.21005.1 (f150d40d).
+//
+// c:\users\alex\documents\visual studio 2013\projects\addcontrol\consoleapplication1\debug\csharpserver.tlh
+//
+// C++ source equivalent of Win32 type library ..\AddControl\bin\Debug\CSharpServer.tlb
+// compiler-generated file created 09/10/17 at 19:46:21 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("089cf3bc-3231-4dad-b0fe-0ccb15f4b824"))
+/* LIBID */ __CSharpServer;
+struct __declspec(uuid("dbe0e8c4-1c61-41f3-b6a4-4e2f353d3d05"))
+/* dual interface */ IManagedInterface;
+struct /* coclass */ InterfaceImplementation;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IManagedInterface, __uuidof(IManagedInterface));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("dbe0e8c4-1c61-41f3-b6a4-4e2f353d3d05"))
+IManagedInterface : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    long PrintHi (
+        _bstr_t name );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_PrintHi (
+        /*[in]*/ BSTR name,
+        /*[out,retval]*/ long * pRetVal ) = 0;
+};
+
+struct __declspec(uuid("c6659361-1625-4746-931c-36014b146679"))
+InterfaceImplementation;
+    // interface _Object
+    // [ default ] interface IManagedInterface
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_CSharpServer =
+    {0x089cf3bc,0x3231,0x4dad,{0xb0,0xfe,0x0c,0xcb,0x15,0xf4,0xb8,0x24}};
+extern "C" const GUID __declspec(selectany) IID_IManagedInterface =
+    {0xdbe0e8c4,0x1c61,0x41f3,{0xb6,0xa4,0x4e,0x2f,0x35,0x3d,0x3d,0x05}};
+extern "C" const GUID __declspec(selectany) CLSID_InterfaceImplementation =
+    {0xc6659361,0x1625,0x4746,{0x93,0x1c,0x36,0x01,0x4b,0x14,0x66,0x79}};
+
+//
+// Wrapper method implementations
+//
+
+#include "c:\users\alex\documents\visual studio 2013\projects\addcontrol\consoleapplication1\debug\csharpserver.tli"
+
+#pragma pack(pop)

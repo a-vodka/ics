@@ -1,0 +1,4 @@
+C:\Users\alex\Documents\Visual Studio 2013\Projects\AddControl\AddControl\bin\Debug\CSharpServer.dll
+C:\Users\alex\Documents\Visual Studio 2013\Projects\AddControl\AddControl\bin\Debug\CSharpServer.pdb
+C:\Users\alex\Documents\Visual Studio 2013\Projects\AddControl\AddControl\obj\Debug\CSharpServer.dll
+C:\Users\alex\Documents\Visual Studio 2013\Projects\AddControl\AddControl\obj\Debug\CSharpServer.pdb
