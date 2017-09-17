@@ -1,0 +1,11 @@
+c:\users\alex\documents\visual studio 2013\Projects\ExcelAutomation\ExcelAutomation\bin\Debug\ExcelAutomation.exe.config
+c:\users\alex\documents\visual studio 2013\Projects\ExcelAutomation\ExcelAutomation\obj\Debug\ExcelAutomation.csprojResolveAssemblyReference.cache
+c:\users\alex\documents\visual studio 2013\Projects\ExcelAutomation\ExcelAutomation\obj\Debug\ExcelAutomation.Form1.resources
+c:\users\alex\documents\visual studio 2013\Projects\ExcelAutomation\ExcelAutomation\obj\Debug\ExcelAutomation.Properties.Resources.resources
+c:\users\alex\documents\visual studio 2013\Projects\ExcelAutomation\ExcelAutomation\obj\Debug\ExcelAutomation.csproj.GenerateResource.Cache
+c:\users\alex\documents\visual studio 2013\Projects\ExcelAutomation\ExcelAutomation\bin\Debug\ExcelAutomation.exe
+c:\users\alex\documents\visual studio 2013\Projects\ExcelAutomation\ExcelAutomation\bin\Debug\ExcelAutomation.pdb
+c:\users\alex\documents\visual studio 2013\Projects\ExcelAutomation\ExcelAutomation\obj\Debug\ExcelAutomation.exe
+c:\users\alex\documents\visual studio 2013\Projects\ExcelAutomation\ExcelAutomation\obj\Debug\ExcelAutomation.pdb
+C:\Users\alex\documents\visual studio 2013\Projects\ExcelAutomation\ExcelAutomation\obj\Debug\ExcelAutomation.csproj.ResolveComReference.cache
+C:\Users\alex\documents\visual studio 2013\Projects\ExcelAutomation\ExcelAutomation\obj\Debug\Interop.Office.dll

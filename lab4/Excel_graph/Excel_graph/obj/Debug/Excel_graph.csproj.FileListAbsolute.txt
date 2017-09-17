@@ -1,0 +1,11 @@
+c:\users\alex\documents\visual studio 2013\Projects\Excel_graph\Excel_graph\bin\Debug\Excel_graph.exe.config
+c:\users\alex\documents\visual studio 2013\Projects\Excel_graph\Excel_graph\bin\Debug\Excel_graph.exe
+c:\users\alex\documents\visual studio 2013\Projects\Excel_graph\Excel_graph\bin\Debug\Excel_graph.pdb
+c:\users\alex\documents\visual studio 2013\Projects\Excel_graph\Excel_graph\obj\Debug\Excel_graph.csprojResolveAssemblyReference.cache
+c:\users\alex\documents\visual studio 2013\Projects\Excel_graph\Excel_graph\obj\Debug\Interop.Office.dll
+c:\users\alex\documents\visual studio 2013\Projects\Excel_graph\Excel_graph\obj\Debug\Excel_graph.csproj.ResolveComReference.cache
+c:\users\alex\documents\visual studio 2013\Projects\Excel_graph\Excel_graph\obj\Debug\Excel_graph.Form1.resources
+c:\users\alex\documents\visual studio 2013\Projects\Excel_graph\Excel_graph\obj\Debug\Excel_graph.Properties.Resources.resources
+c:\users\alex\documents\visual studio 2013\Projects\Excel_graph\Excel_graph\obj\Debug\Excel_graph.csproj.GenerateResource.Cache
+c:\users\alex\documents\visual studio 2013\Projects\Excel_graph\Excel_graph\obj\Debug\Excel_graph.exe
+c:\users\alex\documents\visual studio 2013\Projects\Excel_graph\Excel_graph\obj\Debug\Excel_graph.pdb
