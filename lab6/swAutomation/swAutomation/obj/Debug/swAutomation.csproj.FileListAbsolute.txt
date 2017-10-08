@@ -1,0 +1,9 @@
+c:\users\alex\documents\visual studio 2013\Projects\swAutomation\swAutomation\bin\Debug\swAutomation.exe.config
+c:\users\alex\documents\visual studio 2013\Projects\swAutomation\swAutomation\bin\Debug\swAutomation.exe
+c:\users\alex\documents\visual studio 2013\Projects\swAutomation\swAutomation\bin\Debug\swAutomation.pdb
+c:\users\alex\documents\visual studio 2013\Projects\swAutomation\swAutomation\obj\Debug\swAutomation.csprojResolveAssemblyReference.cache
+c:\users\alex\documents\visual studio 2013\Projects\swAutomation\swAutomation\obj\Debug\swAutomation.Form1.resources
+c:\users\alex\documents\visual studio 2013\Projects\swAutomation\swAutomation\obj\Debug\swAutomation.Properties.Resources.resources
+c:\users\alex\documents\visual studio 2013\Projects\swAutomation\swAutomation\obj\Debug\swAutomation.csproj.GenerateResource.Cache
+c:\users\alex\documents\visual studio 2013\Projects\swAutomation\swAutomation\obj\Debug\swAutomation.exe
+c:\users\alex\documents\visual studio 2013\Projects\swAutomation\swAutomation\obj\Debug\swAutomation.pdb

@@ -1,0 +1,7 @@
+C:\Users\alex\Documents\Visual Studio 2013\Projects\SwCSharpAddin1\SwCSharpAddin1\bin\Debug\SwCSharpAddin1.dll
+C:\Users\alex\Documents\Visual Studio 2013\Projects\SwCSharpAddin1\SwCSharpAddin1\bin\Debug\SwCSharpAddin1.pdb
+C:\Users\alex\Documents\Visual Studio 2013\Projects\SwCSharpAddin1\SwCSharpAddin1\bin\Debug\SwCSharpAddin1.tlb
+C:\Users\alex\Documents\Visual Studio 2013\Projects\SwCSharpAddin1\SwCSharpAddin1\bin\Debug\SolidWorksTools.dll
+C:\Users\alex\Documents\Visual Studio 2013\Projects\SwCSharpAddin1\SwCSharpAddin1\obj\Debug\SwCSharpAddin1.csprojResolveAssemblyReference.cache
+C:\Users\alex\Documents\Visual Studio 2013\Projects\SwCSharpAddin1\SwCSharpAddin1\obj\Debug\SwCSharpAddin1.dll
+C:\Users\alex\Documents\Visual Studio 2013\Projects\SwCSharpAddin1\SwCSharpAddin1\obj\Debug\SwCSharpAddin1.pdb
