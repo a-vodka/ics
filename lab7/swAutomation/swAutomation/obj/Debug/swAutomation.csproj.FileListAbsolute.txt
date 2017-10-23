@@ -16,3 +16,12 @@ e:\gDrive\mail.ru\programming_books\ics\ics\lab6\swAutomation\swAutomation\obj\D
 e:\gDrive\mail.ru\programming_books\ics\ics\lab6\swAutomation\swAutomation\obj\Debug\swAutomation.exe
 e:\gDrive\mail.ru\programming_books\ics\ics\lab6\swAutomation\swAutomation\obj\Debug\swAutomation.pdb
 e:\gDrive\mail.ru\programming_books\ics\ics\lab6\swAutomation\swAutomation\obj\Debug\swAutomation.csprojResolveAssemblyReference.cache
+e:\gDrive\mail.ru\programming_books\ics\ics\lab7\swAutomation\swAutomation\bin\Debug\swAutomation.exe.config
+e:\gDrive\mail.ru\programming_books\ics\ics\lab7\swAutomation\swAutomation\obj\Debug\swAutomation.exe
+e:\gDrive\mail.ru\programming_books\ics\ics\lab7\swAutomation\swAutomation\obj\Debug\swAutomation.pdb
+e:\gDrive\mail.ru\programming_books\ics\ics\lab7\swAutomation\swAutomation\bin\Debug\swAutomation.exe
+e:\gDrive\mail.ru\programming_books\ics\ics\lab7\swAutomation\swAutomation\bin\Debug\swAutomation.pdb
+e:\gDrive\mail.ru\programming_books\ics\ics\lab7\swAutomation\swAutomation\obj\Debug\swAutomation.csprojResolveAssemblyReference.cache
+e:\gDrive\mail.ru\programming_books\ics\ics\lab7\swAutomation\swAutomation\obj\Debug\swAutomation.Form1.resources
+e:\gDrive\mail.ru\programming_books\ics\ics\lab7\swAutomation\swAutomation\obj\Debug\swAutomation.Properties.Resources.resources
+e:\gDrive\mail.ru\programming_books\ics\ics\lab7\swAutomation\swAutomation\obj\Debug\swAutomation.csproj.GenerateResource.Cache
