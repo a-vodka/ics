@@ -1,0 +1,9 @@
+c:\users\alex\documents\visual studio 2013\Projects\SW-Rendering\SW-Rendering\bin\Debug\SW-Rendering.exe.config
+c:\users\alex\documents\visual studio 2013\Projects\SW-Rendering\SW-Rendering\bin\Debug\SW-Rendering.exe
+c:\users\alex\documents\visual studio 2013\Projects\SW-Rendering\SW-Rendering\bin\Debug\SW-Rendering.pdb
+c:\users\alex\documents\visual studio 2013\Projects\SW-Rendering\SW-Rendering\obj\Debug\SW-Rendering.csprojResolveAssemblyReference.cache
+c:\users\alex\documents\visual studio 2013\Projects\SW-Rendering\SW-Rendering\obj\Debug\SW_Rendering.Form1.resources
+c:\users\alex\documents\visual studio 2013\Projects\SW-Rendering\SW-Rendering\obj\Debug\SW_Rendering.Properties.Resources.resources
+c:\users\alex\documents\visual studio 2013\Projects\SW-Rendering\SW-Rendering\obj\Debug\SW-Rendering.csproj.GenerateResource.Cache
+c:\users\alex\documents\visual studio 2013\Projects\SW-Rendering\SW-Rendering\obj\Debug\SW-Rendering.exe
+c:\users\alex\documents\visual studio 2013\Projects\SW-Rendering\SW-Rendering\obj\Debug\SW-Rendering.pdb
