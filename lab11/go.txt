@@ -1,0 +1,135 @@
+!---------------go.txt------------------
+
+
+/PREP7
+/PNUM,LINE,1
+/PNUM,AREA,1
+/NUMBER,1   
+
+!  Задание характеристик КЭ
+
+
+
+*use,params.txt
+*use, param_bolt.txt
+*use,plot_bolt.txt
+
+!ET,1,PLANE182
+ET,1,PLANE223,11
+KEYOPT,1,2,0
+KEYOPT,1,3,1
+*use,mathereal.txt
+*use, premesh.txt
+*use,mesh.txt
+
+DK,1, ,0, ,0,UY, , , , , ,   
+DK,15, ,0, ,0,UX, , , , , ,   
+
+asel,s,,,8,15,1 !-- Выделяем поверхности болта
+asel,a,,,6,,
+asel,inve !- инвертируем выделение, т.е выделяем фланец
+DA,all,TEMP,0 !-задаем температуру
+
+asel,all
+
+eplot
+
+*use, contact.txt 
+
+
+
+
+
+ANTYPE,TRANSIENT,NEW
+asel,s,,,8,15,1 !-- 
+asel,a,,,6,,
+NSLA,S,1
+NPLOT 
+IC,all,TEMP,tempz, , !-- задаем начальную температуру
+
+ALLSEL,ALL  
+asel,s,,,8,15,1 !-- 
+asel,a,,,6,,
+asel,inve !- инвертируем выделение, т.е выделяем фланец
+NSLA,S,1
+IC,all,TEMP,0, , !-- задаем начальную температуру
+
+
+ALLSEL,ALL  
+eplot
+
+/SOL
+TIME,10000   
+AUTOTS,-1   
+NSUBST,10, , ,1  
+KBC,0   
+
+OUTPR,ALL,ALL,  
+OUTRES,ALL,ALL,
+
+/sol
+SOLVE   
+
+/POST1
+!- центральная часть болта
+*get,center,node,node(db4,(hb3-hb4)/2,0),s,eqv
+
+! галтель
+*get,gal,node,node(db4+r2/2,hb3-hb4-dd2/3,0),s,eqv
+
+! внутри отверстия 
+*get,hl,node,node(db6,hb3-hb4+hb2/2,0),s,eqv
+
+! на поверхности шляпки
+*get,napov,node,node(db2,hb3-hb4+hb2,0),s,eqv
+
+! по резьбе
+*get,rezb,node,node(db5,0,0),s,eqv
+
+
+asel,s,,,8,15,1 !-- 
+asel,a,,,6,,
+ESLA,S  
+EPLOT 
+
+
+eplot
+/EXPAND,27,AXIS,,,10
+
+/REPLOT 
+
+
+FINISH                                    ! Выход из постпроцессора
+                                 ! присваивается по умолчанию
+/POST1                                    ! Вход в постпроцессор
+SET,LAST   
+/GRAPHICS,POWER 
+
+/SHOW,VRML                                ! Настройки графического окна для вывода результатов в файл в формате jpg
+!*  
+/DSCALE,ALL,1.0 
+/EFACET,1
+PLNSOL,S,EQV,0,1                          ! Отображение по узлам суммарных перемещений [м]
+*get,smax,plnsol,,max
+*get,smin,plnsol,,min
+/SHOW,CLOSE                               ! Прекращение вывода результатов в файл
+
+/SHOW,VRML                                ! Настройки графического окна для вывода результатов в файл в формате jpg
+!*  
+/DSCALE,ALL,1.0 
+/EFACET,1
+PLNSOL,U,SUM,0,1                          ! Отображение по узлам суммарных перемещений [м]
+*get,umax,plnsol,,max
+*get,umin,plnsol,,min
+/SHOW,CLOSE                               ! Прекращение вывода результатов в файл
+
+FINISH                                    ! Выход из постпроцессора
+
+*cfopen,Mizes,dat
+*vwrite,center,gal,hl,napov,rezb,smax,smin,umax,umin
+%G%/%G%/%G%/%G%/%G%/%G%/%G%/%G%/%G
+*cfclos
+
+
+
+

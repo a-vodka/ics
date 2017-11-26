@@ -1,0 +1,9 @@
+c:\users\alex\documents\visual studio 2013\Projects\swSimulation\swSimulation\bin\Debug\swSimulation.exe.config
+c:\users\alex\documents\visual studio 2013\Projects\swSimulation\swSimulation\bin\Debug\swSimulation.exe
+c:\users\alex\documents\visual studio 2013\Projects\swSimulation\swSimulation\bin\Debug\swSimulation.pdb
+c:\users\alex\documents\visual studio 2013\Projects\swSimulation\swSimulation\obj\Debug\swSimulation.csprojResolveAssemblyReference.cache
+c:\users\alex\documents\visual studio 2013\Projects\swSimulation\swSimulation\obj\Debug\swSimulation.Form1.resources
+c:\users\alex\documents\visual studio 2013\Projects\swSimulation\swSimulation\obj\Debug\swSimulation.Properties.Resources.resources
+c:\users\alex\documents\visual studio 2013\Projects\swSimulation\swSimulation\obj\Debug\swSimulation.csproj.GenerateResource.Cache
+c:\users\alex\documents\visual studio 2013\Projects\swSimulation\swSimulation\obj\Debug\swSimulation.exe
+c:\users\alex\documents\visual studio 2013\Projects\swSimulation\swSimulation\obj\Debug\swSimulation.pdb

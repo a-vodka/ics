@@ -1,0 +1,323 @@
+Mesh generation started:	23.3.2010	17:15:35
+Current CPU = 0 sec
+/-----------------------------------------------------------/
+Geometries initialization:
+
+Geometry database loading ...OK
+
+CFacesDB3::InitGeometry(0)
+Number of geometries: 1
+Geometry(0):
+	Fluid..
+	1 Body.
+	Tolerance=5.25152e-005.
+	15 Faces.
+	4640 Triangles.
+	9 Reference Faces.
+	4230 Reference Triangles.
+	8 Plane surface(s).
+	3 Cylinder surface(s).
+	4 Sphere surface(s).
+	Preparing structures for Triangles:
+		Hash size: {38, 16, 8}.
+		Mesh size: {38, 4, 8}.
+		Hashing triangles...Ok.
+		Making triangles connectivity...Ok. (0.043 s).
+		Neighbour triangles: 100.00 % (good connect) - 0.00 % (bad connect). Min: 3. Max: 3.
+		Done.
+	Preparing structures for Reference Triangles:
+		Hashing triangles...Ok.
+		Making triangles connectivity...Ok. (0.035 s).
+		Neighbour triangles: Min: 1. Max: 3.
+		Done.
+Last Geometry:
+	Solid.
+
+FacesDB serialize (D:\My KhPI-works\ICS\_ICS_for_D_&_A\Semester II\Lecture 7 (CosmosFloWorks)\04 SolidWorks Flow Simulation Educator Guide\valve\1\1.fbd)...OK.
+/-----------------------------------------------------------/
+
+Current CPU = 1 sec
+Flow Simulation 2009 2.0 x64 / 804 / MESHER ver. efd2009.782_18.11.2008 
+
+Project: D:\My KhPI-works\ICS\_ICS_for_D_&_A\Semester II\Lecture 7 (CosmosFloWorks)\04 SolidWorks Flow Simulation Educator Guide\valve\1\1.fwp
+Computer name:	BLASUS
+Operating system:	 (Build 7600)
+
+SolidWorks 2009 SP2.1
+
+/***************Mesh info************************/
+Mesh dimensions:
+				I[0 ]=38
+				I[1 ]=4
+				I[2 ]=8
+Capture level			I[10]=1
+Cells per gap size		I[13]=5
+Max. volume ref.level	I[14]=2
+Body boundary ref.level	I[20]=0
+Solver refinement level	I[47]=0
+
+Optimize thin walls resolution   On
+Thin walls parcon                On
+
+Comp. domain size:
+				a[0  ]=-0.240708
+				a[1  ]=0.720708
+				a[2  ]=-0.0553041
+				a[3  ]=0.0553041
+				a[4  ]=-0.0960737
+				a[5  ]=0.0960737
+Wall thickness		a[231]=0.110608
+Gap size			a[232]=0.04
+/************************************************/
+
+Professional1. Initial memory allocation.
+3. Base mesh generation.
+Hashing geometries triangles
+	Triangles num=1376
+	Triangles box={-0.241669  ,0.721669  ,-0.0554147  ,0.0554147  ,-0.0962659  ,0.0962659  }
+		3d-hash size is 36168 bytes
+		Making triangles connectivity...Ok. (0.010 s).
+		Neighbour triangles: 100.00 % (good connect) - 0.00 % (bad connect). Min: 3. Max: 3.
+Hashing peculiar surfaces triangles
+	Triangles num=31
+	Triangles box={-0.239748  ,2.22507e-308  ,-0.0551312  ,0.0551312  ,-0.0549438  ,0.0551937  }
+		3d-hash size is 5548 bytes
+	Triangles num=31
+	Triangles box={0.719748  ,0.719748  ,-0.0551312  ,0.0551312  ,-0.0551937  ,0.0549438  }
+		3d-hash size is 5548 bytes
+Base mesh info------------------
+	2D flag  =0
+	Period   =[0, 0, 0]
+	Nx=38
+		x[0]=-0.240708
+		x[1]=-0.2154
+		x[2]=-0.190099
+		x[3]=-0.164799
+		x[4]=-0.139498
+		x[5]=-0.114198
+		x[6]=-0.0888975
+		x[7]=-0.0635971
+		x[8]=-0.0382967
+		x[9]=-0.0129963
+		x[10]=0.0123042
+		x[11]=0.0376046
+		x[12]=0.062905
+		x[13]=0.0882054
+		x[14]=0.113506
+		x[15]=0.138806
+		x[16]=0.164107
+		x[17]=0.189407
+		x[18]=0.214708
+		x[19]=0.240008
+		x[20]=0.265308
+		x[21]=0.290609
+		x[22]=0.315909
+		x[23]=0.34121
+		x[24]=0.36651
+		x[25]=0.39181
+		x[26]=0.417111
+		x[27]=0.442411
+		x[28]=0.467712
+		x[29]=0.493012
+		x[30]=0.518313
+		x[31]=0.543613
+		x[32]=0.568913
+		x[33]=0.594214
+		x[34]=0.619514
+		x[35]=0.644815
+		x[36]=0.670115
+		x[37]=0.695416
+		x[38]=0.720708
+	Ny=4
+		y[0]=-0.0553041
+		y[1]=-0.0276445
+		y[2]=7.51456e-006
+		y[3]=0.0276596
+		y[4]=0.0553041
+	Nz=8
+		z[0]=-0.0960737
+		z[1]=-0.0720498
+		z[2]=-0.0480313
+		z[3]=-0.0240129
+		z[4]=5.52918e-006
+		z[5]=0.024024
+		z[6]=0.0480424
+		z[7]=0.0720608
+		z[8]=0.0960737
+End of base mesh info---------
+Input_mesh_settings--------------------------------
+Settings 0----------------
+	Scope: GLOBAL
+	Type:	------MESHER_SETTINGS----------
+	RefAllCells           =0
+	RefFluidCells         =0
+	RefPartCells          =0
+	RefSolidCells         =0
+	l_SSFR(Capture crit)  =1
+	l_curv(Curvature crit)=0
+	l_tol(Tolerance crit) =1
+	  k_tol               =0.01
+	UseChannelRef         =1
+	  l_NCR               =2
+	  N_gap               =5
+	  Use d_NCR_min       =0
+	  Use d_NCR_max       =0
+	--END_OF_MESHER_SETTINGS-------
+End of input mesh settings-------------------------
+/--------Building geometries-------------------------/
+Building geometry Fluid.0.(0)...
+	Collecting ray's...OK
+	Refining by triangulation...OK
+		Refining by triangulation takes 0.043 s
+	Refining peculiar surfaces...OK
+		0 surfaces refined
+		Refining peculiar surfaces takes 0 s
+	Capturing...OK
+	Refining...OK
+	Capturing...OK
+	Base mesh 1 Refining...OK
+Building geometry takes 0.364 s
+Refining channels...
+Refine fluid channels takes		 1.39 s
+volref on openings takes		 0 s
+OK
+Geometry Fluid.0.
+Total		8433
+Partial	3766
+Fluid		2713
+Solid		1954
+Bad		8
+
+/-Ray Intersection---------------/ Time	0.161 s
+Calls			2673
+CorrectRay Calls	0
+Building geometries takes 1.757 s
+/----------------------------------------------------/
+/---------PostBuilding geometries--------------------/
+PostBuilding geometries takes 0 s
+/----------------------------------------------------/
+mark_bricks_near_vol_refd takes		 0.056 s
+
+/-----------------------------------------------------------/
+OPTIMIZATION OF MESHER MEMORY:
+
+	Process memory usage:                 330.160 MB
+	Geometries number:                    1
+	Optimization:                         off.
+/-----------------------------------------------------------/
+
+/-----------------------------------------------------------/
+MESH-TP (Thin Profiles) format constructor:
+Result:
+	Bricks number:                        8433
+
+	Bricks topology:                      100.00 % (8433 success)
+	                                        0.00 % (0 failed)
+
+	Memory usage:                         2.425 MB
+	Memory usage (per brick):             0.294 KB
+	Construction time:                    0.662 s
+
+	Irregular cases:
+	----------------
+	Corrected x-stack topologies          0
+	Removed points connections            0
+	Failed a-face constructions           0
+	Not found closest point connections   0
+	Failed cv-mergings                    0
+	Failed T-cells capturing              0
+	U-shaped T-head faces                 0
+
+/-----------------------------------------------------------/
+/-----------------------------------------------------------/
+MESH-TP --> BCF-TP format (Iteration 0):
+	BCF cleaner...
+	BCF collector...
+		Different nb-edge parts numbers       0
+	BCF creator...
+	Defect cv detector...
+		Defect cv                0
+	BCF corrector...
+		Side normalizations      18
+		Corrected cv             4
+		Face-a area disbalance   3.1003e-016
+	NB-faces collector...
+	NB-faces conservator...
+		Total occurances         4
+		For bb-faces             4
+		For u-faces              0
+	BCF calculator...
+	Defect cv detector...
+		Defect cv                0
+	Ref-faces data conservator...
+	Defect subdomain detector...
+		1 fluid subdomain(s).
+		0 defect fluid subdomain(s).
+			subdomain 0: number of cv=6493 gi=0 
+		1 solid subdomain(s).
+		0 defect solid subdomain(s).
+			subdomain 0: number of cv=5722 gi=1 
+/-----------------------------------------------------------/
+
+/-----------------------------------------------------------/
+BCF CHECKSUM DATA:
+
+FACE_A Area Sum:   G.Fluid        1.9436077323172252
+FACE_A Area Sum:   G.Solid        1.6608271226728770
+FACE_W Area Sum:                  0.9960432557965213
+FACE_W Nb   Sum:                  25494
+CV Max Disbalance: G.Fluid        1.18868e-016 (cid=3469, cvid=2545)
+CV Max Disbalance: G.Solid        9.36791e-013 (cid=1311, cvid=7738)
+BRICK-CV Volume Disbalance:       2.01734e-016 (cid=8395)
+/-----------------------------------------------------------/
+
+AV max fa count:                  21
+AV max fw count:                  3
+
+/-----------------------------------------------------------/
+MESHER TOPOLOGY DATA:
+
+BRICKS: Total                 8433
+BRICKS: 1-CV                  4667
+BRICKS: 2-CV                  3750
+BRICKS: 3-CV                  16
+BRICKS: Bad                   0
+
+CV:     G.Total               12215
+CV:     G.Fluid               6493
+CV:     G.Solid               5722
+
+CV:     G.Fluid Thin Profile  2
+CV:     G.Solid Thin Profile  14
+
+FACE_A: G.Fluid          (af) 18238 (partially opened 7662)
+FACE_A: G.Solid          (as) 15435 (partially opened 7633,defined by fluid 4599)
+
+FACE_W: G.Total                 6272        Brick/Bound U-Shaped    T-head      T-Leg
+FACE_W: G.Fluid/Solid    (fs_g) 3784        2           0           0           0           
+FACE_W: G.Fluid/Fluid    (ff_g) 0           0           0           0           0           
+FACE_W: G.Solid/Solid    (ss_g) 0           0           0           0           0           
+FACE_W: G.Fluid/External (fe_g) 0
+FACE_W: G.Solid/External (se_g) 2488
+
+MEMORY: Total                   4.582 MB
+MEMORY: Per Brick               0.556 KB
+/-----------------------------------------------------------/
+
+Current CPU = 4 sec
+NC_Total = 8433, NC_Ingas = 2713, NC_Inbod = 1954, NC_Part+NC_Unres = 3766 / NC_Unres = 0
+
+Nx=38
+Ny=4
+Nz=8
+Max_RL=2
+12. Saving initial mesh in: D:\My KhPI-works\ICS\_ICS_for_D_&_A\Semester II\Lecture 7 (CosmosFloWorks)\04 SolidWorks Flow Simulation Educator Guide\valve\1\1.fld .
+Storing results...
+Estimated CPT size=1.788 MB.
+	write_x_stack_list4()...OK
+OK
+Cleaning memory... OK
+Copying... OK
+Mesh generation normally finished at	23.3.2010	17:15:39
+Mesher CPU = 4 sec
+Mesher is finished at	23.3.2010	17:15:39
