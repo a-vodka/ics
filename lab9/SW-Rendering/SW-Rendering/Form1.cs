@@ -42,28 +42,27 @@ namespace SW_Rendering
             IRayTraceRenderer swRayTraceRenderer = sw.GetRayTraceRenderer(1);
             if (swRayTraceRenderer == null)
             {
-                MessageBox.Show(sw.GetExecutablePath() + ".\\sldraytracerenderu.dll");
-                //int fileerror = sw.LoadAddIn(sw.GetExecutablePath()+"C:\Program Files\SolidWorks Corp\SolidWorks (2)sldraytracerenderu.dll");
-                int fileerror = sw.LoadAddIn(@"C:\Program Files\SolidWorks Corp\SolidWorks (2)\sldraytracerenderu.dll");
+                
+                int fileerror = sw.LoadAddIn("PhotoView 360");
                 swRayTraceRenderer = sw.IGetRayTraceRenderer(1);
             }
 
             RayTraceRendererOptions swRayTraceRenderOptions = swRayTraceRenderer.RayTraceRendererOptions;
 
           textBox2.Clear();
-          textBox2.Text += "\n Current rendering values ";
-          textBox2.Text += "\n ImageWidth            = " + (swRayTraceRenderOptions.ImageWidth);
-          textBox2.Text += "\n ImageFormat           = " + (swRayTraceRenderOptions.ImageFormat);
-          textBox2.Text += "\n ImageHeight           = " + (swRayTraceRenderOptions.ImageHeight);
-          textBox2.Text += "\n PreviewRenderQuality  = " + (swRayTraceRenderOptions.PreviewRenderQuality);
-          textBox2.Text += "\n FinalRenderQuality    = " + (swRayTraceRenderOptions.FinalRenderQuality);
-          textBox2.Text += "\n BloomEnabled          = " + (swRayTraceRenderOptions.BloomEnabled);
-          textBox2.Text += "\n BloomThreshold        = " + (swRayTraceRenderOptions.BloomThreshold);
-          textBox2.Text += "\n BloomRadius           = " + (swRayTraceRenderOptions.BloomRadius);
-          textBox2.Text += "\n ContourEnabled        = " + (swRayTraceRenderOptions.ContourEnabled);
-          textBox2.Text += "\n ShadedContour         = " + (swRayTraceRenderOptions.ShadedContour);
-          textBox2.Text += "\n ContourLineThickness  = " + (swRayTraceRenderOptions.ContourLineThickness);
-          textBox2.Text += "\n ContourLineColor      = " + (swRayTraceRenderOptions.ContourLineColor);
+          textBox2.Text += "Current rendering values";
+          textBox2.Text += System.Environment.NewLine + "ImageWidth            = " + (swRayTraceRenderOptions.ImageWidth);
+          textBox2.Text += System.Environment.NewLine + "ImageFormat           = " + (swRayTraceRenderOptions.ImageFormat);
+          textBox2.Text += System.Environment.NewLine + "ImageHeight           = " + (swRayTraceRenderOptions.ImageHeight);
+          textBox2.Text += System.Environment.NewLine + "PreviewRenderQuality  = " + (swRayTraceRenderOptions.PreviewRenderQuality);
+          textBox2.Text += System.Environment.NewLine + "FinalRenderQuality    = " + (swRayTraceRenderOptions.FinalRenderQuality);
+          textBox2.Text += System.Environment.NewLine + "BloomEnabled          = " + (swRayTraceRenderOptions.BloomEnabled);
+          textBox2.Text += System.Environment.NewLine + "BloomThreshold        = " + (swRayTraceRenderOptions.BloomThreshold);
+          textBox2.Text += System.Environment.NewLine + "BloomRadius           = " + (swRayTraceRenderOptions.BloomRadius);
+          textBox2.Text += System.Environment.NewLine + "ContourEnabled        = " + (swRayTraceRenderOptions.ContourEnabled);
+          textBox2.Text += System.Environment.NewLine + "ShadedContour         = " + (swRayTraceRenderOptions.ShadedContour);
+          textBox2.Text += System.Environment.NewLine + "ContourLineThickness  = " + (swRayTraceRenderOptions.ContourLineThickness);
+          textBox2.Text += System.Environment.NewLine + "ContourLineColor      = " + (swRayTraceRenderOptions.ContourLineColor);
 
           bool status = swRayTraceRenderer.RenderToFile(Application.StartupPath+"./lter_1.jpg", 0, 0);
           status = swRayTraceRenderer.CloseRayTraceRender();

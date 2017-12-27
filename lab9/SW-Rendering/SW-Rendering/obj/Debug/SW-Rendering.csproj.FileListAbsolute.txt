@@ -7,3 +7,12 @@ c:\users\alex\documents\visual studio 2013\Projects\SW-Rendering\SW-Rendering\ob
 c:\users\alex\documents\visual studio 2013\Projects\SW-Rendering\SW-Rendering\obj\Debug\SW-Rendering.csproj.GenerateResource.Cache
 c:\users\alex\documents\visual studio 2013\Projects\SW-Rendering\SW-Rendering\obj\Debug\SW-Rendering.exe
 c:\users\alex\documents\visual studio 2013\Projects\SW-Rendering\SW-Rendering\obj\Debug\SW-Rendering.pdb
+e:\gDrive\mail.ru\programming_books\ics\ics\lab9\SW-Rendering\SW-Rendering\bin\Debug\SW-Rendering.exe.config
+e:\gDrive\mail.ru\programming_books\ics\ics\lab9\SW-Rendering\SW-Rendering\obj\Debug\SW-Rendering.exe
+e:\gDrive\mail.ru\programming_books\ics\ics\lab9\SW-Rendering\SW-Rendering\obj\Debug\SW-Rendering.pdb
+e:\gDrive\mail.ru\programming_books\ics\ics\lab9\SW-Rendering\SW-Rendering\obj\Debug\SW-Rendering.csprojResolveAssemblyReference.cache
+e:\gDrive\mail.ru\programming_books\ics\ics\lab9\SW-Rendering\SW-Rendering\obj\Debug\SW_Rendering.Form1.resources
+e:\gDrive\mail.ru\programming_books\ics\ics\lab9\SW-Rendering\SW-Rendering\obj\Debug\SW_Rendering.Properties.Resources.resources
+e:\gDrive\mail.ru\programming_books\ics\ics\lab9\SW-Rendering\SW-Rendering\obj\Debug\SW-Rendering.csproj.GenerateResource.Cache
+e:\gDrive\mail.ru\programming_books\ics\ics\lab9\SW-Rendering\SW-Rendering\bin\Debug\SW-Rendering.exe
+e:\gDrive\mail.ru\programming_books\ics\ics\lab9\SW-Rendering\SW-Rendering\bin\Debug\SW-Rendering.pdb
